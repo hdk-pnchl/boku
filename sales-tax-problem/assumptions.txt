@@ -1,0 +1,25 @@
+1.
+	Input structure exactly follow the sample input i.e.
+		each new line is one product
+		if we comma separate the line with " ", the 1st token would be quantity and last token would be price
+		everything in between 1st and last token is product description.
+		i.e. there are atleast 3 token is it, quantity, productDesc, price
+		*"Input 1:", will appear at the beginning of new receipt(collection of product).
+2.
+	Product description contains detail about the product feature
+		if imported
+		what type of product it is?  example: food, medical, books etc
+		In product description, there should not be more then 1 type feature.
+			i.e. description should not contain feature as 'FOOD' along with 'BOOK'
+
+3.
+	Input 3: '1 box of imported chocolates at 11.25' having a typo
+		Correct: '1 imported box of chocolates at 11.25'
+		
+4.
+	in summary, "Sales Taxes:" is addition of sales and import taxes.
+		without this, the sample input output arnt matching.
+
+5.
+	rounding off logic is applied to both, sales and import taxes
+			
